@@ -4,16 +4,16 @@
 
 ### Using npm
 ```
-npm i the_logo
+npm i the-logo
 ```
 
 ### Using yarn
 ```
-yarn add the_logo
+yarn add the-logo
 ```
 ### Using pnpm
 ```
-pnpm add the_logo
+pnpm add the-logo
 ```
 
 Somewhere in your project (e.g a main.js/main.ts file):
