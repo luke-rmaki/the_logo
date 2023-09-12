@@ -2,7 +2,8 @@
   "name": "the-logo",
   "author": "Luke Ruokaismäki",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "main": "main.ts",
   "type": "module",
   "scripts": {
     "dev": "vite",
