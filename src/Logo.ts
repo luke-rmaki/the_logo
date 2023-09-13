@@ -89,5 +89,9 @@ export class Logo extends HTMLElement {
 
   connectedCallback() {
     this.style.backgroundColor = this.getAttribute("background") || "white";
+    const svg = this.querySelector("svg");
+    if (svg) {
+      svg.style.backgroundColor = this.getAttribute("background") || "white";
+    }
   }
 }
