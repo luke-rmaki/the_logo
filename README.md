@@ -23,5 +23,5 @@ import 'the-logo'
 
 Use the component:
 ```html
-<the-logo></the-logo>
+<the-logo background="my-color"></the-logo>
 ```

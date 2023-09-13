@@ -85,5 +85,6 @@ export class Logo extends HTMLElement {
     super();
     this.attachShadow({ mode: "open" });
     this.shadowRoot?.appendChild(template.content);
+    this.style.backgroundColor = this.getAttribute("background") || "white";
   }
 }
